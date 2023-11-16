@@ -60,22 +60,40 @@ Console.WriteLine(year);
 
 
 // Вид 4
-string Method4(int count, string text)
-{
-    int i = 0;
-    string result = String.Empty;
+//string Method4(int count, string text)
+//{
+//    int i = 0;
+//    string result = String.Empty;
+//
+//    while(i < count)
+//    {
+//        result = result + text;
+//        i++;
+//    }
+//    return result;
+//}
 
-    while(i < count)
+//string res = Method4(10, "qwerty");
+//Console.WriteLine(res);
+
+
+
+
+
+// Вид 5
+
+string Method5(int count, string text)
+{
+    string result = String.Empty;
+    for (int i = 0; i < count; i++)
     {
         result = result + text;
-        i++;
     }
     return result;
 }
 
-string res = Method4(10, "qwerty");
+string res = Method5(10, "q");
 Console.WriteLine(res);
-
 
 
 
